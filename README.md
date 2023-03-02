@@ -4,7 +4,7 @@
 # systemctl start dlm
 # pcs cluster create
 # pcs property set no-quorum-policy=freeze
-# pcs property set stonith-enable=false
+# pcs property set stonith-enabled=false
 # lvmconf --enable-halvm
 # lvmconf --enable-halvm --services --startstopservices
 # systemctl disable lvm2-lvmetad.service   ## RHEL 7
