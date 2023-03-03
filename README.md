@@ -39,3 +39,5 @@ https://www-linuxjournal-com.translate.goog/content/high-availability-storage-ha
 # pcs cluster standby node1
 
 https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/high_availability_add-on_administration/ch-service-haaa
+
+# stonith_admin --cleanup --history=nfs-2
